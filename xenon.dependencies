@@ -1,0 +1,12 @@
+[
+  { 
+    "repository": "TeamHorizon/android_bootable_recovery",
+    "target_path": "bootable/recovery-twrp",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_external_toybox",
+    "target_path": "external/toybox",
+    "branch": "n"
+  }  
+]
