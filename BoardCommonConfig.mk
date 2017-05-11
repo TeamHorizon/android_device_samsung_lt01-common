@@ -238,6 +238,5 @@ TW_NO_SCREEN_BLANK := true
 TW_NO_SCREEN_TIMEOUT := true
 HAVE_SELINUX := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
-TW_USE_TOOLBOX := true
 TW_EXCLUDE_SUPERSU := true
 endif
