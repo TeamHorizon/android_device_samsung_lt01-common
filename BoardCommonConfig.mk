@@ -215,6 +215,9 @@ endif
 BOARD_CHARGING_CMDLINE_NAME := lpcharge
 BOARD_CHARGING_CMDLINE_VALUE := 1
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Properties
 TARGET_SYSTEM_PROP += device/samsung/lt01-common/system.prop
 
